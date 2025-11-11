@@ -1,0 +1,26 @@
+.history-container {
+  margin-top: 1rem;
+  text-align: center;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+}
+.header {
+  margin-bottom: 0.5rem;
+}
+.text {
+  color: #777;
+}
+.history-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.history-item {
+  margin-bottom: 0.25rem;
+}
+.history-resulte {
+  font-weight: bold;
+  margin-top: 0.5rem;
+}

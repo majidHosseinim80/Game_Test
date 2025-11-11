@@ -1,0 +1,54 @@
+.item-list {
+  display: grid;
+  grid-template-columns: repeat(4, 120px);
+  gap: 12px;
+  justify-content: center;
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  width: 120px;
+  height: 120px;
+}
+
+.card {
+  position: relative;
+  width: 90%;
+  height: 90%;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 8px;
+  justify-self: center;
+}
+
+.layout {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #f2cb09, #edcea7);
+  border-radius: 8px;
+  opacity: 1;
+  z-index: 2;
+  transition: opacity 0.5s ease;
+}
+.revealed .layout {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.revealed .item-image {
+  opacity: 1;
+}
+
+.item-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 1;
+}

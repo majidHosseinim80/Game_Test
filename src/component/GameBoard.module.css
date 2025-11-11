@@ -1,0 +1,104 @@
+.bord-container {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+  font-family: "Vazirmatn", sans-serif;
+}
+
+.game-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f8f8;
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.game-header h2 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.game-header p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.time-select {
+  background-color: #f4f4f4;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.time-select p {
+  margin: 0.25rem 0;
+  color: #444;
+}
+
+.time-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 0.5rem 0;
+}
+
+.time-buttons button {
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+}
+
+.time-buttons button:hover {
+  background: #0064d3;
+}
+
+.game-area {
+  margin-top: 1.5rem;
+}
+
+.history-wrap {
+  margin: 1rem 0;
+}
+
+.controls {
+  margin-top: 1.5rem;
+}
+.reset-btn {
+  background: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+.reset-btn:hover {
+  background: #218838;
+}
+.hint {
+  color: #777;
+  font-size: 0.9rem;
+  margin-top: 0.8rem;
+}
+.game-resulte {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #222;
+  font-weight: 600;
+  background: #ffeaa7;
+  padding: 0.7rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
